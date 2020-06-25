@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registro de Lembretes</title>
+    <meta charset="utf-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Caixa principal dos inputs -->
+    <div id="main">
+        <div id="header">
+            <h2 id="tituloApp">Registro de Lembretes</h2>
+            <a href="sobre.html" id="sobre">
+                <p>Sobre o Aplicativo</p>
+            </a>
+            <input placeholder="Título" type="text" id="titulo" class="caixaTexto"></input>
+            <input placeholder="Direção" type="text" id="direcao" class="caixaTexto"></input>
+            <input placeholder="Ano de Lançamento" type="text" id="ano" class="caixaTexto"></input>
+            <input placeholder="Gênero" type="text" id="genero" class="caixaTexto"></input>
+            <!-- Selecionar status do lembrete -->
+            <select class="caixaSelect" id="campoEscolha">
+                <option>Escolha</option>
+                <option class="escolha" id="quero">Quero</option>
+                <option class="escolha" id="comprei">Comprei</option>
+                <option class="escolha" id="jaVi">Ja Vi</option>
+                <option class="escolha" id="assistindo">Assistindo</option>
+            </select>
+            <!-- Selecionar nota -->
+            <select class="caixaSelect" id="campoNota">
+                <option>Nota</option>
+                <option class="escolha" id="muitoBom">Muito bom</option>
+                <option class="escolha" id="bom">Bom</option>
+                <option class="escolha" id="mediano">Mediano</option>
+                <option class="escolha" id="ruim">Ruim</option>
+                <option class="escolha" id="pessimo">Péssimo</option>
+            </select>
+            <button id="gravar" onclick="gravarNota()">Gravar lembrete</button>
+        </div>
+
+        <!-- Card adicionado -->
+        <div id="content">
+            <div id="base-item" class="item-hide">
+                <div class="item-titulo">
+                    Título
+                </div>
+                <div class="item-direcao">
+                    Direção
+                </div>
+                <div class="item-ano">
+                    Ano de Lançamento
+                </div>
+                <div class="item-genero">
+                    Gênero
+                </div>
+                <div class="item-escolha">
+                    Escolha
+                </div>
+                <div class="item-nota">
+                    Nota
+                </div>
+                <div id="campoBotao">
+                    <div id="posicaoBotao">
+                        <button id="editar">Editar</button>
+                        <button id="apagar">Apagar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

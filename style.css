@@ -1,0 +1,145 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #ffbb00 0%, #ffcc40 100%);
+    color: #cf8700;
+}
+
+#main{
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0 50px #726700;
+}
+
+.caixaTexto{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 25px;
+    border: 2px solid rgb(129, 106, 0);
+    outline: none;
+}
+
+.caixaSelect{
+    display: block;
+    width: 91%;
+    margin: 10px auto;
+    border-radius: 10px;
+    height: 30px;
+    border: 2px solid rgb(129, 106, 0);
+    outline: none;
+}
+
+#gravar, #salvar{
+    display: block;
+    margin: 30px auto;
+    width: 160px;
+    height: 25px;
+    background: rgb(255, 231, 125);
+    outline: none;
+    border: 2px solid #d1ab00;
+    border-radius: 5px;
+}
+
+#tituloApp{
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.item-show{
+    width: 95%;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(158, 121, 0);
+}
+
+.item-hide{
+    display: none;    
+}
+
+.item-titulo{
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+    background-color: #e4ba00;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.item-direcao{
+    padding: 10px;
+    background-color: #F5F5F6;
+    color: black;
+    border-radius: 0 0 5px 5px;
+}
+
+.item-ano{
+    padding: 10px;
+    background-color: rgb(255, 231, 125);
+    color: black;
+}
+
+.item-genero{
+    padding: 10px;
+    background-color: #F5F5F6;
+    color: black;
+    border-radius: 0 0 5px 5px;
+}
+
+.item-escolha{
+    padding: 10px;
+    background-color: rgb(255, 231, 125);
+    color: black;
+    border-radius: 0 0 5px 0px;
+}
+
+.item-nota{
+    padding: 10px;
+    background-color: #F5F5F6;
+    color: black;
+    border-radius: 0 0 5px 5px; 
+}
+
+.posicaoBotao{
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#sobre{
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+    color: #cf8700;
+    font-weight: bold;
+}
+
+#txtSobre{
+    text-align: justify;
+    color: #726700;
+}
+
+#campoBotao{
+    width: 100%;
+    background-color: rgb(255, 231, 125);
+}
+
+#posicaoBotao{
+    width: 900%;
+    position: relative;
+    left: 50%;
+    margin-left: -110px;
+}
+
+#editar, #apagar{
+    width: 100px;
+    height: 25px;
+    background: rgb(255, 231, 125);
+    outline: none;
+    border: 2px solid #d1ab00;
+    border-radius: 5px;
+    margin: 10px;
+}
